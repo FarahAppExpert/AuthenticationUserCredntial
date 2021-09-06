@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AuthenticationUserCredntial</string>
+    <plurals name="already_authenticated">
+        <item quantity="one">Already Authenticated</item>
+        <item quantity="two">Already Authenticated</item>
+    </plurals>
+</resources>
