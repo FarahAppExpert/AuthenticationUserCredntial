@@ -67,7 +67,7 @@ class MainActivity : AppCompatActivity() {
            cipher.init(Cipher.ENCRYPT_MODE, secretKey)
            cipher.doFinal(Secret_Byte)
 
-           showAuthentication()
+           alreadyAuthenticated()
            return true
        }
        catch (exception : UserNotAuthenticatedException)
